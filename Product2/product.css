@@ -1,0 +1,55 @@
+
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+  
+  td:nth-child(even),td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+table th,
+tr,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+table {
+    width: 100%;
+}
+th {
+    color:white;
+    background-color: DarkSlateBlue;
+}
+tr {
+    background-color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.card-header{
+  background-color: black;
+}
+.card-body{
+  
+    position: relative;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-color:#0000004a;
+      background-clip: border-box;
+      border: 1px solid rgba(0,0,0,.125);
+      border-radius: 0.25rem;
+  
+}
